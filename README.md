@@ -1,23 +1,39 @@
-#WebstormTroopers
-[ ![Codeship Status for thiefjack/WebStormTroopers](https://codeship.com/projects/e58e08b0-ce3e-0133-961f-32b8bfabf829/status?branch=master)](https://codeship.com/projects/140852) [![Code Climate](https://codeclimate.com/repos/56eb35d946674e0085001b9d/badges/d34d37138e740796e3ef/gpa.svg)](https://codeclimate.com/repos/56eb35d946674e0085001b9d/feed)
+# WebstormTroopers
 
-##0. Currently deployed on: 
-http://webstormtroopers.herokuapp.com
-##1. Getting Started
+A visitor check-in web application targeted towards small businesses.
 
-###1.1 List of Requirements
-1. **Node.js** (http://nodejs.org/)
-2. **MongoDB** (https://www.mongodb.org/)
-3. **HandleBars** (http://handlebarsjs.com/)
-4. **jQuery** (https://jquery.com/)
+[ ![Codeship Status for thiefjack/WebStormTroopers](https://codeship.com/projects/e58e08b0-ce3e-0133-961f-32b8bfabf829/status?branch=master)](https://codeship.com/projects/140852) 
 
-###1.2 Instructions
-**Step 1:** Do a `git clone` on our project on **Github** (https://github.com/thiefjack/WebStormTroopers/).
+## Getting Started
 
-**Step 2:** Run `npm install` in the directory of the project to install the dependency for the backend.
+Clone the repository to your local machine.
 
-**Step 3:** Run `gulp test:server` to test the backend API.
+```
+git clone https://github.com/danielchristiancazares/emissary.git
+```
 
-**Step 4:** Run `gulp test:client` to test the frontend dependecies.
+In the project directory, install the back-end dependencies.
 
-**Step 5:** Run `npm start` to start the application.
+```
+npm install
+```
+
+Run the tests.
+
+```
+gulp test:server
+gulp test:client
+```
+
+Run the application.
+
+```
+npm start
+```
+
+## Built With
+
+* [Node.js](http://nodejs.org/)
+* [MongoDB](https://www.mongodb.org/)
+* [HandleBars](http://handlebarsjs.com/)
+* [jQuery](https://jquery.com/)
